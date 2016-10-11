@@ -20,7 +20,7 @@ html, body {
 
 /*
  * Big Image
-*/
+ */
 
 #image-content {
 	height: 92%;
@@ -51,6 +51,8 @@ html, body {
 	letter-spacing: 50px;
 	height: 90%;
 	text-transform: uppercase;
+	/*Kudos to Mina for this text-shadow*/
+	text-shadow: -3px 0px white;
 }
 
 .remove-end-space {
@@ -59,7 +61,7 @@ html, body {
 
 /*
  * About
-*/
+ */
 
 #about-content {
 	/*background-color: pink*/
@@ -70,19 +72,12 @@ html, body {
 	padding: 0;
 	width: 100%;
 	background-image: url('../img/game1.png');
-	/*background-size: cover;*/
 	background-repeat: no-repeat;
-	/*background-repeat: repeat-y;
-	background-attachment: fixed;
-	background-size: 100% auto;
-	background-position: center bottom;*/
 
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
- 	/*z-index: -1;*/
-
 }
 
 #about-content-text {
@@ -93,27 +88,22 @@ html, body {
 }
 
 #about-darken {
-	/*opacity: 0.5;*/
 	padding: 10%;
-/*	margin-top: -10%;
-	margin-left: -10%;*/	
-	/*background-color: gray;*/
 	background: rgba(0, 0, 0, 0.5);
-	/*position: absolute;*/
 	height: auto;
 	width: 80%;
 }
 
 /*
  * Skills
-*/
+ */
 
 #skills-content {
 	background-color: rgba(82, 73, 92, 1);
+	/*background-color: white;*/
 }
 
 #skills-boxes-wrapper {
-	/*background-color: gray;*/
 	height: 70%;
 	width: 100%;
 	margin-left: auto;
@@ -133,16 +123,57 @@ html, body {
 	margin-bottom: auto;
 	background-color: white;
 	display: inline-block;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 	border-radius: 4px;
 	padding: 1%;
 	text-align: center;
 }
 
+.skills-icon {
+	width: 10vmin;
+	height: 10vmin;
+
+	border-radius: 5vmin;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+
+	margin-left: auto;
+	margin-right: auto;
+
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+#skills-icon-coding {
+	background-image: url('../img/CodingIcon.png');
+}
+
+#skills-icon-cooking {
+	background-image: url('../img/CookingIcon.png');
+}
+
+.skills-box-title {
+	color: rgba(82, 73, 92, 1);
+	font-size: 5vh;
+}
+
 .skills-box-content {
-	/*background-color: gray;*/
 	color: rgba(82, 73, 92, 1);
 }
+
+/*
+ * Language Familiarity
+ */
+
+ #language-familiarity-content {
+	background-color: rgba(82, 73, 92, 1);
+ }
+
+/*
+ * Title Stuff
+ */
 
 .title {
 	/*color: rgba(255, 255, 255, 0.9);*/
@@ -153,4 +184,29 @@ html, body {
 	font-size: 10vh;
 	text-align: center;
 	z-index: 100;
+}
+
+/*
+ * Link Stuff
+ */
+
+a:link {
+	color: rgba(51, 227, 255, 0.7);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgba(51, 227, 255, 0.7);
+	text-decoration: none;
+}
+
+/*Only this one is different...*/
+a:hover {
+	color: rgba(51, 227, 255, 0.9);
+	text-decoration: none;
+}
+
+a:active {
+	color: rgba(51, 227, 255, 0.7);
+	text-decoration: none;
 }
