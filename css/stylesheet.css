@@ -150,8 +150,12 @@ html, body {
 	background-image: url('../img/CodingIcon.png');
 }
 
+#skills-icon-animation {
+	
+}
+
 #skills-icon-cooking {
-	background-image: url('../img/CookingIcon.png');
+	background-image: url('../img/CookingIcon2.png');
 }
 
 .skills-box-title {
@@ -160,6 +164,9 @@ html, body {
 }
 
 .skills-box-content {
+	padding: 7%;
+	font-size: 2.5vh;
+	/*margin-top: 1vh;*/
 	color: rgba(82, 73, 92, 1);
 }
 
