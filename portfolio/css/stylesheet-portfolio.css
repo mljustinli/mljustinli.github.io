@@ -1,0 +1,150 @@
+html {
+	background-color: rgba(82, 73, 92, 1);
+}
+
+.image-content-container {
+
+}
+
+.image-content-border {
+
+}
+
+.images-container {
+/*	width: 100%;
+	display: block;
+	overflow: auto;*/
+	column-count: 4;
+	column-gap: 1em;
+}
+
+.image-container {
+/*	background-color: #eee;
+	display: inline-block;
+	margin: 0 0 1em;
+	width: 100%;
+	height: 25vmin;*/
+	/*float: left;
+	overflow: hidden;
+	transition: all .2s ease-in-out;*/
+}
+
+.image-container:hover {
+	/*position: absolute;
+	height: 30vmin;
+	width: 30%;*/
+	/*z-index: 2;
+	transform: scale(1.1);
+	overflow: hidden;*/
+}
+
+.image-info {
+
+}
+
+.portfolio-image {
+	width: 100%;
+	/*height: 100%;*/
+
+	/*-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	transform: translate(-10%,-10%);*/
+	vertical-align: middle;
+}
+
+.portfolio-title {
+
+}
+
+iframe {
+	/*max-width: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translate(-50%,-50%);*/
+
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+body {
+	font: 1em/1.67 'Open Sans', Arial, Sans-serif;
+	margin: 0;
+	background-color: rgba(82, 73, 92, 1);
+}
+
+.portfolio-wrapper {
+	width: 95%;
+	margin: 3em auto;
+}
+
+.images-container {
+	margin: 1.5em 0;
+	padding: 0;
+	-moz-column-gap: 1.5em;
+	-webkit-column-gap: 1.5em;
+	column-gap: 1.5em;
+	font-size: .85em;
+}
+
+.image-container {
+	display: inline-block;
+	background: #fff;
+	padding: 1em;
+	margin: 0 0 1.5em;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+@media only screen and (min-width: 400px) {
+	.images-container {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.images-container {
+		-moz-column-count: 3;
+		-webkit-column-count: 3;
+		column-count: 3;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.images-container {
+		-moz-column-count: 4;
+		-webkit-column-count: 4;
+		column-count: 4;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	.images-container {
+		-moz-column-count: 5;
+		-webkit-column-count: 5;
+		column-count: 5;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.portfolio-wrapper {
+		width: 1260px;
+	}
+}

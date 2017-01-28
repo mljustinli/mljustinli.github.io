@@ -48,7 +48,7 @@ html, body {
 	text-align: center;
 	margin-top: 0;
 	position: absolute;
-	letter-spacing: 50px;
+	letter-spacing: 1vmin;
 	height: 90%;
 	text-transform: uppercase;
 	/*Kudos to Mina for this text-shadow*/
