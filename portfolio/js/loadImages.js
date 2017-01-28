@@ -20,11 +20,22 @@
 //       alert("Failed to load files"); 
 //     }
 //   }
-  
-//   var el = document.getElementById('fileinput');
-//   if(el){
-//     alert("got here");
-//     document.getElementById('fileinput').addEventListener('change', readMultipleFiles, false);
-//   }
 
+//this refuses to work :(
+
+
+// $(document).ready(function() {
+//   $.ajax({
+//     url: "/JuiceTin/portfolio",
+//     success: function(data){
+//      $(data).find("a:contains(.jpg)").each(function(){
+//       // will loop through 
+//       var images = $(this).attr("href");
+
+//       alert("herehere");
+//       $('<p></p>').html(images).appendTo('#images-container')
+
+//     });
+//    }
+//  });
 // });
