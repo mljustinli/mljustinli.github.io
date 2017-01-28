@@ -31,8 +31,8 @@
 				<ul>
 					<li><a href = "../">Home</a></li>
 					<li><a href = "#">Portfolio</a></li>
+					<li><a href = "#">Two Animations</a></li>
 					<li><a href = "#">R&eacutesum&eacute</a></li>
-					<li><a href = "#">???</a></li>
 					<li><a href = "#">???</a></li>
 				</ul>
 				<ul>
@@ -59,6 +59,20 @@
 					}
 				}
 				?> -->
+
+				
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+
+					<!-- The Close Button -->
+					<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+					<!-- Modal Content (The Image) -->
+					<img class="modal-content" id="img01">
+
+					<!-- Modal Caption (Image Text) -->
+					<div id="caption"></div>
+				</div>
 
 
 				<div class = "image-container">
@@ -89,6 +103,8 @@
 				</div>
 				<div class = "image-container">
 					<img src = "portfolio_images/bodyObservationalDrawings (7) - Copy.jpg" class = "portfolio-image">
+					<h3> Some fingers. </h3>
+					<p> In my opinion, these are some pretty quality fingers, relative to my previous drawings.</p>
 				</div>
 				<div class = "image-container">
 					<img src = "portfolio_images/bodyObservationalDrawings (8) - Copy.jpg" class = "portfolio-image">
@@ -186,5 +202,6 @@
 </body>
 <script type = "text/javascript" src = "../js/jquery-1.12.3.min.js"></script>
 <script type = "text/javascript" src = "js/loadImages.js"></script>
+<script type = "text/javascript" src = "js/expandImage.js"></script>
 </body>
 </html>
