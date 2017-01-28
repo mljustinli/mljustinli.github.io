@@ -11,14 +11,26 @@
 	<!-- Portfolio Style Sheets -->
 	<link type="text/css" rel="stylesheet" href="css/stylesheet-portfolio.css">
 
-	<link rel="shortcut icon" href="img/favicon.ico" type="../image/x-icon">
-	<link rel="icon" href="img/favicon.ico" type="../image/x-icon">
+	<link rel="shortcut icon" href="../img/favicon.ico" type="../image/x-icon">
+	<link rel="icon" href="../img/favicon.ico" type="../image/x-icon">
 
 	<title>Portfolio</title>
 </head>
 <body>
 
 	
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- The Close Button -->
+		<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+		<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="img01">
+
+		<!-- Modal Caption (Image Text) -->
+		<div id="caption"></div>
+	</div>
 
 	<div class = "portfolio-wrapper">
 		<div class = "portfolio-wrapper">
@@ -36,6 +48,7 @@
 					<li><a href = "#">???</a></li>
 				</ul>
 				<ul>
+					<li><a href = "#">Sep 2016</a></li>
 					<li><a href = "#">Oct 2016</a></li>
 					<li><a href = "#">Nov 2016</a></li>
 					<li><a href = "#">Dec 2016</a></li>
@@ -43,6 +56,7 @@
 				</ul>
 			</div>
 
+			<h1 class = "section-title"> Sep 2016 </h1>
 			<div class = "images-container" id = "images-container">
 
 				<!-- <?php
@@ -59,22 +73,6 @@
 					}
 				}
 				?> -->
-
-				
-				<!-- The Modal -->
-				<div id="myModal" class="modal">
-
-					<!-- The Close Button -->
-					<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-
-					<!-- Modal Content (The Image) -->
-					<img class="modal-content" id="img01">
-
-					<!-- Modal Caption (Image Text) -->
-					<div id="caption"></div>
-				</div>
-
-
 				<div class = "image-container">
 					<img src = "portfolio_images/20161110_134407 - Copy.jpg" class = "portfolio-image">
 				</div>
@@ -112,85 +110,50 @@
 				<div class = "image-container">
 					<img src = "portfolio_images/bodyObservationalDrawings (9) - Copy.jpg" class = "portfolio-image">
 				</div>
-				<!-- <div class = "image-container">
-					<img src = "portfolio_images/cube (1) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/cube (2) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/cube (3) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/cube (4) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/cubeObservationDrawing (1) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/cubeObservationDrawing (2) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/cubeObservationDrawing (3) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/juiceTinSketchbook (1) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/juiceTinSketchbook (2) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawing (1) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawing (2) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawing (3) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (1) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (2) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (3) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (4) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (5) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (6) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (7) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/morganFreemanDistortionDrawingProcess (8) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/potato - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/pumpkinWatercolor (1) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/pumpkinWatercolor (2) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/test - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/unfoldedCube (1) - Copy.jpg" class = "portfolio-image">
-				</div>
-				<div class = "image-container">
-					<img src = "portfolio_images/unfoldedCube (2) - Copy.jpg" class = "portfolio-image">
-				</div> -->
 			</div>
+			<div class = "section-break"></div>
+
+			<h1 class = "section-title"> Oct 2016 </h1>
+			<div class = "images-container" id = "images-container">
+				<div class = "image-container">
+					<img src = "portfolio_images/20161110_134407 - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/20161110_134409 - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (1) - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (2) - Copy.jpg" class = "portfolio-image">
+					<h3> An nose. </h3>
+					<p> An awkward nose... It's kind of weird, isn't it?</p>
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (3) - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (4) - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (5) - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (6) - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (7) - Copy.jpg" class = "portfolio-image">
+					<h3> Some fingers. </h3>
+					<p> In my opinion, these are some pretty quality fingers, relative to my previous drawings.</p>
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (8) - Copy.jpg" class = "portfolio-image">
+				</div>
+				<div class = "image-container">
+					<img src = "portfolio_images/bodyObservationalDrawings (9) - Copy.jpg" class = "portfolio-image">
+				</div>
+			</div>
+			<div class = "section-break"></div>
 		</div>
 	</div>
 

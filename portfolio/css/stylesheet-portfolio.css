@@ -100,6 +100,20 @@ iframe {
 
 }
 
+.section-title {
+	text-align: center;
+	font-size: 5vmin;
+	text-shadow: -2px 0px white;
+	color: rgba(52, 46,59, 1)
+}
+
+.section-break {
+	height: 1vmin;
+	width: 100%;
+	background-color: rgba(52, 46,59, 1);
+	border-radius: 3px;
+}
+
 .image-container {
 	display: inline-block;
 	background: #fff;
