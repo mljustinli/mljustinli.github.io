@@ -8,7 +8,7 @@ html, body {
 	/*height correlates with #image-content height*/
 	padding: 2%;
 	height: 4%;
-	width: 100%;
+	width: 96%;
 	/*background-color: pink;*/
 }
 
@@ -182,8 +182,8 @@ html, body {
 	
 }
 
-#skills-icon-cooking {
-	background-image: url('../img/CookingIcon2.png');
+#skills-icon-drawing {
+	/*background-image: url('../img/CookingIcon2.png');*/
 }
 
 .skills-box-title {
