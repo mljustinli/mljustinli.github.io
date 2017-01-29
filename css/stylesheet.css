@@ -6,9 +6,37 @@ html, body {
 
 #header {
 	/*height correlates with #image-content height*/
-	height: 8%;
+	padding: 2%;
+	height: 4%;
 	width: 100%;
 	/*background-color: pink;*/
+}
+
+#header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 5vmin;
+	display: block;
+}
+
+#header li {
+	padding: 1vmin;
+	/*min-width: 10vmin;*/
+	float: left;
+	height: 100%;
+}
+
+#header li:hover {
+
+}
+
+#header li a {
+	display: block;
+	height: 100%;
+	/*padding: 8px;*/
+	font-size: 3vmin;
 }
 
 .content {
@@ -215,5 +243,34 @@ a:hover {
 
 a:active {
 	color: rgba(51, 227, 255, 0.7);
+	text-decoration: none;
+}
+
+/*
+ * Navigation Link Stuff
+ */
+
+#header a:link {
+	/*color: rgba(51, 227, 255, 0.7);*/
+	color: rgba(82, 73, 92, 1);
+	text-decoration: none;
+}
+
+#header a:visited {
+	/*color: rgba(51, 227, 255, 0.7);*/
+	color: rgba(82, 73, 92, 1);
+	text-decoration: none;
+}
+
+/*Only this one is different...*/
+#header a:hover {
+	/*color: rgba(51, 227, 255, 0.9);*/
+	color: rgba(52, 46, 59, 1);
+	text-decoration: none;
+}
+
+#header a:active {
+	/*color: rgba(51, 227, 255, 0.7);*/
+	color: rgba(82, 73, 92, 1);
 	text-decoration: none;
 }
