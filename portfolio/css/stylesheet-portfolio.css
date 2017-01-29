@@ -159,13 +159,13 @@ iframe {
 	}
 }
 
-@media only screen and (min-width: 1100px) {
+/*@media only screen and (min-width: 1100px) {
 	.images-container {
 		-moz-column-count: 5;
 		-webkit-column-count: 5;
 		column-count: 5;
 	}
-}
+}*/
 
 @media only screen and (min-width: 1280px) {
 	.portfolio-wrapper {
