@@ -178,17 +178,19 @@ html, body {
 	background-image: url('../img/CodingIcon.png');
 }
 
-#skills-icon-animation {
-	
+#skills-icon-drawing {
+	background-image: url('../img/DrawingIcon.png');
 }
 
-#skills-icon-drawing {
-	/*background-image: url('../img/CookingIcon2.png');*/
-}
+#skills-icon-animation {
+	background-image: url('../img/enemyBoomer.gif');
+	background-position: center;
+	/*background-size: 90% 90%;*/
+ }
 
 .skills-box-title {
 	color: rgba(82, 73, 92, 1);
-	font-size: 5vh;
+	font-size: 4vmin;
 }
 
 .skills-box-content {
@@ -203,7 +205,7 @@ html, body {
  */
 
  #language-familiarity-content {
-	background-color: rgba(82, 73, 92, 1);
+	/*background-color: rgba(82, 73, 92, 1);*/
  }
 
 /*
