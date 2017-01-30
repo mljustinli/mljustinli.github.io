@@ -45,8 +45,8 @@ ul {
 }
 
 li {
-	padding: 0.5vmin;
-	min-width: 10vmin;
+	padding: 1vmin;
+	/*min-width: 10vmin;*/
 	float: left;
 	background-color: rgba(52, 46, 59, 1);
 	height: 100%;
