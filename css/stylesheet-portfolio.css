@@ -162,6 +162,10 @@ iframe {
 	margin: 0;
 }
 
+.image-container img {
+	cursor: zoom-in;
+}
+
 @media only screen and (min-width: 400px) {
 	.images-container {
 		-moz-column-count: 2;
