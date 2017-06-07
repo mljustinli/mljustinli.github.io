@@ -154,6 +154,10 @@ iframe {
 	box-shadow: 2px 2px 4px 0 rgba(52, 46,59, 1);
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .image-container h3 {
 	margin: 0;
 }
