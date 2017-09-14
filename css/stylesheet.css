@@ -249,6 +249,31 @@ a:active {
 }
 
 /*
+ * skills-box-content links
+ */
+
+a:link {
+	color: rgba(51, 227, 255, 0.7);
+	color: rgba(53, 130, 123, 0.7);
+}
+
+a:visited {
+	color: rgba(51, 227, 255, 0.7);
+	color: rgba(53, 130, 123, 0.7);
+}
+
+/*Only this one is different...*/
+a:hover {
+	color: rgba(51, 227, 255, 0.9);
+	color: rgba(53, 130, 123, 0.9);
+}
+
+a:active {
+	color: rgba(51, 227, 255, 0.7);
+	color: rgba(53, 130, 123, 0.7);
+}
+
+/*
  * Navigation Link Stuff
  */
 
