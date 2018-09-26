@@ -1,0 +1,130 @@
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/LemonMilk.otf);
+}
+
+body, html {
+    width: 100%;
+    height: 95%;
+    font-family: lemonMilk;
+    margin: 0;
+    background-color: rgb(206, 221, 224);
+    /*margin-top: 5%;*/
+    /*overflow: hidden;*/
+}
+
+body {
+    /*margin-bottom: 5%;*/
+}
+
+#slogan {
+    width: auto;
+    height: auto;
+    font-size: 5vmin;
+    padding: 2%;
+    text-align: center;
+    /*background-color: gray;*/
+}
+
+#fact-wrapper {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2%;
+    border-radius: 4vmin;
+    overflow: auto;
+}
+
+#fact-heading {
+    font-size: 4vmin;
+    text-align: center;
+}
+
+#fact-image {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#fact-text {
+    padding: 2%;
+    font-size: 3vmin;
+    /*color: rgba(206, 221, 224, 100);*/
+    color: rgb(163, 180, 183);
+}
+
+#refresh-button {
+    border-radius: 4vmin;
+    width: auto;
+    display: inline-block;
+    height: auto;
+    background-color: rgb(206, 221, 224);
+    float: right;
+    font-size: 3vmin;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+#refresh-button:hover {
+    background-color: rgb(163, 180, 183);
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        /*background-color: gray;*/
+    }
+
+    #slogan {
+        font-size: 8vmin;
+    }
+
+    #fact-wrapper {
+        width: 90%;
+        position: relative;
+    }
+
+    #fact-heading {
+        font-size: 6vmin;
+    }
+
+    #fact-text {
+        font-size: 4vw;
+    }
+
+    #refresh-button {
+        position: absolute;
+        bottom: 2%;
+        right: 2%;
+        /*margin-bottom: 0;*/
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        /*background-color: lightgreen;*/
+    }
+
+    #fact-heading {
+        font-size: 8vmin;
+    }
+
+    #fact-text {
+        font-size: 5vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
