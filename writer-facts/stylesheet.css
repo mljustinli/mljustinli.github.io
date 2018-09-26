@@ -23,13 +23,19 @@ body {
     font-size: 5vmin;
     padding: 2%;
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px rgb(163, 180, 183);
     /*background-color: gray;*/
 }
 
 #fact-wrapper {
-    width: 60%;
+    /*width: 60%;*/
+    /*width: 90%;*/
+    width: 90%;
+    max-width: 40vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
     background-color: white;
     padding: 2%;
     border-radius: 4vmin;
@@ -39,6 +45,7 @@ body {
 #fact-heading {
     font-size: 4vmin;
     text-align: center;
+    color: rgb(163, 180, 183);
 }
 
 #fact-image {
@@ -51,8 +58,9 @@ body {
 
 #fact-text {
     padding: 2%;
-    font-size: 3vmin;
+    font-size: 1.8vmin;
     /*color: rgba(206, 221, 224, 100);*/
+    /*color: rgb(206, 221, 224);*/
     color: rgb(163, 180, 183);
 }
 
@@ -69,6 +77,16 @@ body {
     color: white;
 }
 
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome and Opera */
+}
+
 #refresh-button:hover {
     background-color: rgb(163, 180, 183);
 }
@@ -79,20 +97,23 @@ body {
     }
 
     #slogan {
-        font-size: 8vmin;
-    }
-
-    #fact-wrapper {
-        width: 90%;
-        position: relative;
-    }
-
-    #fact-heading {
         font-size: 6vmin;
     }
 
+    #fact-wrapper {
+        height: 90%;
+        width: 90%;
+        /*max-width: 90vw;*/
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    #fact-heading {
+        font-size: 4vmin;
+    }
+
     #fact-text {
-        font-size: 4vw;
+        font-size: 2vh;
     }
 
     #refresh-button {
@@ -112,8 +133,12 @@ body {
         font-size: 8vmin;
     }
 
+    #fact-image {
+
+    }
+
     #fact-text {
-        font-size: 5vw;
+        font-size: 2vh;
     }
 }
 
