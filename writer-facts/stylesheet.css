@@ -54,11 +54,11 @@ body {
 #fact-image {
     display: block;
     /*width: 50%;*/
-    /*width: 80%;*/
-    max-width: 80%;
-    max-height: 50%;
-    width: auto;
-    height: auto;
+    width: 97%;
+    /*max-width: 80%;*/
+    /*max-height: 80%;*/
+    /*width: auto;*/
+    /*height: auto;*/
     margin-left: auto;
     margin-right: auto;
     /*height: auto;*/
@@ -66,7 +66,8 @@ body {
 
 #fact-text {
     padding: 2%;
-    font-size: 1.8vmin;
+    /*font-size: 1.8vmin;*/
+    font-size: 2.5vmin;
     /*color: rgba(206, 221, 224, 100);*/
     /*color: rgb(206, 221, 224);*/
     color: rgb(163, 180, 183);
@@ -122,11 +123,11 @@ body {
     }
 
     #fact-heading {
-        font-size: 4vmin;
+        font-size: 4vh;
     }
 
     #fact-text {
-        font-size: 2vh;
+        font-size: 2.7vh;
     }
 
     #refresh-button {
@@ -151,7 +152,7 @@ body {
     }
 
     #fact-text {
-        font-size: 2vh;
+        font-size: 2.7vh;
     }
 }
 
