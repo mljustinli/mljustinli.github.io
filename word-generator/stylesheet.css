@@ -81,7 +81,8 @@ body, html {
 
 .used-word {
     color: green;
-    text-decoration: underline;
+    color: #ffb74c;
+    /*text-decoration: underline;*/
 }
 
 #credits {
