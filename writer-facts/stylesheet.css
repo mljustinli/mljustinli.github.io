@@ -49,6 +49,7 @@ body {
     font-size: 4vmin;
     text-align: center;
     color: rgb(163, 180, 183);
+    margin-bottom: 1vh;
 }
 
 #fact-image {
